@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.magic{
+  color: #ff80cc;
+  text-align: center;
+  font-family:"MV Boli";
+  font-size: 4em;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  width:500px;
+  background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+  linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+  linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+  linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+  background-size: 20px 20px;
+}
+
+.Particles{
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
